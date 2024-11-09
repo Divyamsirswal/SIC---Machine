@@ -1,0 +1,9 @@
+HCOPY   001000 000012
+1000         LDA    ALPHA      
+1003         STA    BETA       
+1006         +JSUB  SUBRTN     
+100A  ALPHA  WORD   5          
+100D  BETA   RESW   1          
+1010  SUBRTN RESB   2          
+T0010000C
+E 001000
